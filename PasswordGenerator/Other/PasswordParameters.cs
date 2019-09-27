@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PasswordGenerator.Builders
+namespace PasswordGenerator.Other
 {
-    class PasswordBuilder
+    class PasswordParameters
     {
 
     }

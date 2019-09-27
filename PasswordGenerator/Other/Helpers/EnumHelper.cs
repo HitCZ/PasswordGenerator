@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PasswordGenerator.Builders
+namespace PasswordGenerator.Other.Helpers
 {
-    class PasswordBuilder
+    public class EnumHelper
     {
-
     }
 }
