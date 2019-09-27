@@ -2,7 +2,7 @@
 
 namespace PasswordGenerator.Providers
 {
-    public class PasswordNumberProvider : PasswordElementProvider<int>
+    public sealed class PasswordNumberProvider : PasswordElementProvider<int>
     {
         public PasswordNumberProvider()
         {

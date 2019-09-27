@@ -3,9 +3,9 @@ using System.Linq;
 
 namespace PasswordGenerator.Providers
 {
-    public sealed class PasswordEnglishCharactersProvider : PasswordElementProvider<char>
+    public sealed class PasswordEnglishAlphabetProvider : PasswordElementProvider<char>
     {
-        public PasswordEnglishCharactersProvider()
+        public PasswordEnglishAlphabetProvider()
         {
             FillCharacters(AvailableElements);
         }
