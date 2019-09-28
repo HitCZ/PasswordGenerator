@@ -1,6 +1,6 @@
 ﻿namespace PasswordGenerator.Other.Constants
 {
-    public static class Constants
+    internal static class Constants
     {
         public const string PasswordLengthIsZero = "Password has to contain at least one element!";
         public const string PasswordElementsCountIsHigherThanLength =

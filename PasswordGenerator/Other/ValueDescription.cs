@@ -2,7 +2,7 @@
 
 namespace PasswordGenerator.Other
 {
-    public class ValueDescription
+    internal class ValueDescription
     {
         public object Value { get; }
         public string Description { get; }

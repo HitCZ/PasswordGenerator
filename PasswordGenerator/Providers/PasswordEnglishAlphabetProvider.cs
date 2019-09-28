@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace PasswordGenerator.Providers
 {
-    public sealed class PasswordEnglishAlphabetProvider : PasswordElementProvider<char>
+    internal sealed class PasswordEnglishAlphabetProvider : PasswordElementProvider<char>
     {
         public PasswordEnglishAlphabetProvider()
         {

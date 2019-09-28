@@ -11,7 +11,7 @@ namespace PasswordGeneratorTests
         [TestMethod]
         public void GetAllValueDescriptionsTest()
         {
-            var v = EnumExtensions<Amount>.GetAllValueDescriptions();
+            //var v = EnumExtensions<Amount>.GetAllValueDescriptions();
         }
 
         public void GetEnumDescriptionTest()

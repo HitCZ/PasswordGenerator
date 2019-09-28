@@ -6,7 +6,7 @@ using PasswordGenerator.Providers;
 
 namespace PasswordGenerator.Builders
 {
-    public class PasswordBuilder
+    internal class PasswordBuilder
     {
         private readonly IPasswordElementProvider numbersProvider;
         private readonly IPasswordElementProvider specialCharactersProvider;

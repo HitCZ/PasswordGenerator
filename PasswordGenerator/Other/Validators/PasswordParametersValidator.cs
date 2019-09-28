@@ -2,7 +2,7 @@
 
 namespace PasswordGenerator.Other.Validators
 {
-    public class PasswordParametersValidator
+    internal class PasswordParametersValidator
     {
         public (bool isValid, string message) ValidateParameters(PasswordParameters parameters)
         {

@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace PasswordGenerator.Other.Extensions
 {
-    public static class EnumExtensions<T> where T : Enum
+    internal static class EnumExtensions<T> where T : Enum
     {
         public static List<ValueDescription> GetAllValueDescriptions()
         {

@@ -2,7 +2,7 @@
 
 namespace PasswordGenerator.Providers
 {
-    public sealed class PasswordSpecialCharacterProvider : PasswordElementProvider<char>
+    internal sealed class PasswordSpecialCharacterProvider : PasswordElementProvider<char>
     {
         public PasswordSpecialCharacterProvider()
         {
