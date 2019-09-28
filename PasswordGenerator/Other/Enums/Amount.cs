@@ -8,8 +8,8 @@ namespace PasswordGenerator.Other.Enums
         None,
         [Description("One")]
         One,
-        [Description("Random amount")]
-        RandomAmount,
+        //[Description("Random amount")]
+        //RandomAmount,
         [Description("Exact Amount:")]
         ExactAmount
     }

@@ -13,5 +13,20 @@ namespace PasswordGeneratorTests
         {
             var v = EnumExtensions<Amount>.GetAllValueDescriptions();
         }
+
+        public void GetEnumDescriptionTest()
+        {
+
+        }
+
+        private enum Empty
+        {
+        }
+
+        private enum WithoutDescription
+        {
+            Val1,
+            Val2
+        }
     }
 }
